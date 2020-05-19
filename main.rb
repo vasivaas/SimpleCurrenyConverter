@@ -17,7 +17,7 @@ class Converter
   private
 
   def api_url
-    api_id = "1d1a713fa9134ef48f82bd595b866f87"
+    api_id = "*****************************************"
     "https://openexchangerates.org/api/latest.json?app_id=#{api_id}&base=#{@from}&symbols=#{@to}"
   end
 
